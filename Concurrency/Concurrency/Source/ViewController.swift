@@ -5,7 +5,18 @@ import UIKit
 
 final class ViewController: UIViewController {
 
+    @IBOutlet private var images: [UIImageView]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func tappedLoadButton(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func tappedLoadAllButton(_ sender: UIButton) {
+        
+    }
+    
 }
