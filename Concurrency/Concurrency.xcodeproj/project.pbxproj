@@ -13,6 +13,7 @@
 		B450094429A750DD00ABD3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B450094229A750DD00ABD3FC /* Main.storyboard */; };
 		B450094629A750DE00ABD3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B450094529A750DE00ABD3FC /* Assets.xcassets */; };
 		B450094929A750DE00ABD3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B450094729A750DE00ABD3FC /* LaunchScreen.storyboard */; };
+		B450095329A7782A00ABD3FC /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450095229A7782A00ABD3FC /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B450094529A750DE00ABD3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B450094829A750DE00ABD3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B450094A29A750DE00ABD3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B450095229A7782A00ABD3FC /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B450093E29A750DD00ABD3FC /* SceneDelegate.swift */,
 				B450094029A750DD00ABD3FC /* ViewController.swift */,
 				B450094229A750DD00ABD3FC /* Main.storyboard */,
+				B450095229A7782A00ABD3FC /* Array+Extension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				B450094129A750DD00ABD3FC /* ViewController.swift in Sources */,
 				B450093D29A750DD00ABD3FC /* AppDelegate.swift in Sources */,
 				B450093F29A750DD00ABD3FC /* SceneDelegate.swift in Sources */,
+				B450095329A7782A00ABD3FC /* Array+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
