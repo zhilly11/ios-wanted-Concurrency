@@ -16,12 +16,12 @@ final class ViewController: UIViewController {
     @IBAction func tappedLoadButton(_ sender: UIButton) {
         let index = sender.tag
         
-        images[index].load(url: ImageURL[index])
+        loadImage(index: index)
     }
     
     @IBAction func tappedLoadAllButton(_ sender: UIButton) {
         for index in 0..<images.count {
-            images[index].load(url: ImageURL[index])
+            loadImage(index: index)
         }
     }
     
@@ -33,5 +33,9 @@ final class ViewController: UIViewController {
         images.forEach { imageView in
             imageView.image = UIImage(systemName: "photo")
         }
+    }
+    
+    private func loadImage(index: Int) {
+        images[index].load(url: ImageURL[index])
     }
 }
